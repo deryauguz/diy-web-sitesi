@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #D87CE2;
+  color: #333;
+}
+
+.sss-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-image: url(images/crafting.jpg);
+  background-size: cover;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.sss-container h1 {
+  text-align: center;
+  color: #5e007a;
+  margin-bottom: 20px;
+}
+
+.sss-item {
+  margin-bottom: 20px;
+}
+
+.sss-item p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background-image: url(images/ayna.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 50px 0;
+    text-shadow: 1px 1px 3px #000;
+  }
+  
+  h1 {
+    margin-bottom: 30px;
+    font-size: 2rem;
+  }
+  
+  .ayna-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .proje-karti {
+    background-color: #ddd2fd; 
+    color: white; 
+    width: 90%;
+    max-width: 600px;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    text-decoration: none; 
+    display: block; 
+    transition: transform 0.3s ease;
+}
+
+.proje-karti:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.proje-karti h3 {
+    text-decoration: underline;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.proje-karti img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+  
+  .proje-karti p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .dugme-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .kumas-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .karton-kutu-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .petsise-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .boncuk-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .kavanoz-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .kil-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+  .ip-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+  
+  .balon-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;     
+  }
+  .mandal-container{
+     display: flex;
+     flex-direction:column;
+     align-items: center;
+  }
+  .şönil-container{
+      display: flex;
+      flex-direction: column;
+      align-items:center;
+  }
+  
+  .fermuar-container{
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+  }
+  
+  .igne-container{
+      display:flex;
+      flex-direction:column;
+      align-items: center;
+  }
+.tum-projeler-kapsayici {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}

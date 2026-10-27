@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #D87CE2;
+  font-family: Arial, sans-serif;
+}
+
+.kayitformu {
+  width: 350px;
+  padding: 30px;
+  background-image: url("images/form2.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.kayitformu h1 {
+  font-size: 28px;
+  margin-bottom: 25px;
+  color: white;
+  text-shadow: 1px 1px 3px #000;
+}
+
+.kayitformu input[type="text"],
+.kayitformu input[type="email"],
+.kayitformu input[type="password"] {
+  width: 100%;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.kayitbuton {
+  background-color: #ff944d;
+  color: white;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+#kayitol{
+    text-align: center;
+}
+#kayit{
+  text-align: center;
+  margin:20px;
+ color:indigo;
+}

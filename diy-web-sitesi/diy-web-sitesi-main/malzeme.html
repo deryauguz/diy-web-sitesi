@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Malzeme Listesi</title>
+  <link rel="icon" href="images/favicon.png" type="image/png" />
+  <link rel="stylesheet" href="malzeme.css" />
+</head>
+<body>
+  <div class="malzeme-container">
+    <h1 id="malzeme-baslık">Kullanabileceğiniz malzemeler:</h1>
+
+    <form class="malzeme-form" action="sonuclar.php" method="post">
+      <label class="checkbox-item"><input type="checkbox" name="malzeme[]" value="ayna" /> Ayna</label>
+      <label class="checkbox-item"><input type="checkbox" name="malzeme[]" value="balon" /> Balon</label>
+      <label class="checkbox-item"><input type="checkbox" name="malzeme[]" value="boncuk" /> Boncuk</label>
+      <label class="checkbox-item"><input type="checkbox" name="malzeme[]" value="dugme" /> Düğme</label>
+      <label class="checkbox-item"><input type="checkbox" name="malzeme[]" value="fermuar" /> Fermuar</label>
+      <label class="checkbox-item"><input type="checkbox" name="malzeme[]" value="igne" /> İğne</label>
+      <label class="checkbox-item"><input type="checkbox" name="malzeme[]" value="ip" /> İp</label>
+      <label class="checkbox-item"><input type="checkbox" name="malzeme[]" value="karton-kutu" /> Karton Kutu</label>
+      <label class="checkbox-item"><input type="checkbox" name="malzeme[]" value="kavanoz" /> Kavanoz</label>
+      <label class="checkbox-item"><input type="checkbox" name="malzeme[]" value="kil" /> Kil</label>
+      <label class="checkbox-item"><input type="checkbox" name="malzeme[]" value="kumas" /> Kumaş</label>
+      <label class="checkbox-item"><input type="checkbox" name="malzeme[]" value="mandal" /> Mandal</label>
+       <label class="checkbox-item"><input type="checkbox" name="malzeme[]" value="pet-sise" /> Pet Şişe</label>
+      <label class="checkbox-item"><input type="checkbox" name="malzeme[]" value="sonil" /> Şönil</label>
+      <button type="submit">Gönder</button>
+    </form>
+  </div>
+</body>
+</html>
+

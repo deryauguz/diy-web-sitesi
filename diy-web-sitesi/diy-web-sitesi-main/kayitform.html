@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kayıt Ol</title>
+    <link rel="icon" href="images/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="kayıtform.css">
+</head>
+<body>
+    <div class="kayitformu">
+        <form action="kaydol.php" method="POST">
+            <h1 id="kayitol">Kayıt Ol</h1>
+            <input type="text" name="kullanici_adi" placeholder="Kullanıcı Adınız" class="bilgiler" required />
+            <input type="email" name="email" placeholder="E-posta Adresiniz" class="bilgiler" required />
+            <input type="password" name="sifre" placeholder="Şifreniz" class="bilgiler" required />
+            <input type="password" name="sifre_tekrar" placeholder="Şifreniz (Tekrar)" class="bilgiler" required />
+            <input type="submit" value="Kayıt Ol" class="kayitbuton" />
+        </form>
+    </div>
+</body>
+</html>

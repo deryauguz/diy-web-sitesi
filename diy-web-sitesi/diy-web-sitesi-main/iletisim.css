@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #D87CE2;
+  color: #000;
+}
+
+.iletisim-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.iletisim-container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #5e007a;
+}
+
+.bilgi p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.yapanlar {
+  margin-top: 40px;
+}
+
+.yapanlar h2 {
+  margin-bottom: 15px;
+  color: #5e007a;
+}
+
+.yapanlar ul {
+  padding-left: 20px;
+}
+
+.yapanlar li {
+  font-size: 17px;
+  margin-bottom: 8px;
+}
