@@ -26,29 +26,15 @@ Veritabanı Yönetimi: Proje, malzeme ve kullanıcı bilgilerinin MySQL veritaba
 
 Kullanılan Teknolojiler
 
-Teknoloji
+PHP:Sunucu taraflı işlemler ve uygulama mantığı
 
-Kullanım Amacı
+MySQL:Kullanıcı, proje ve malzeme bilgilerinin saklanması
 
-PHP
+HTML5:Web sayfalarının yapısının oluşturulması
 
-Sunucu taraflı işlemler ve uygulama mantığı
+CSS3:Kullanıcı arayüzünün tasarlanması ve görsel düzenlemeler
 
-MySQL
-
-Kullanıcı, proje ve malzeme bilgilerinin saklanması
-
-HTML5
-
-Web sayfalarının yapısının oluşturulması
-
-CSS3
-
-Kullanıcı arayüzünün tasarlanması ve görsel düzenlemeler
-
-PHP Sessions
-
-Kullanıcı oturumlarının yönetilmesi
+PHP Sessions: Kullanıcı oturumlarının yönetilmesi
 
 Sistemin Çalışma Mantığı
 
